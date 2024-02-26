@@ -1,14 +1,3 @@
-name = input('What is your name?')
-age = input('What is your age number?')
-location = input('Where do you come from?')
-
-
-print('Hello {} you are {} years old, and live in {}, right?'.format(name,age,location))
-#print=input('Hello {name} You are {age} years old and live in {location}')
-
-
-
-
 '''Week 1 Assignment: Database Design - Data vs. Information
 This form has been created to collect submissions for the week 1 assignment.
 francisnjaramba2@gmail.com Switch account
