@@ -45,7 +45,8 @@ DBMS is software for interacting with databases while a database is a collection
 1.1.3.     Discuss in short, the importance of normalization in database design and provide an example of how it can improve data integrity.
 
 Normalization helps in organizing data in well structured form reducing anomalies. It improves data integrity by reducing the tables into smaller sizes hence making it easy to make changes.
-Never submit passwords through Google Forms.
 
 '''
+
+
 
