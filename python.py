@@ -2,9 +2,9 @@ print("Hello world")
 
 #This is a tuple, it has ordered elements. It's immutable, and cannot be modified.
 tuple = ("Ramsdale", "Saliba", "Odeegard", "Martinelli")
-print (tuple[2])
+print (tuple[2]) #Accessing the second indexed variable.
 
-#Talk of a list
+#Talk of a list, we use square brackets.
 list = ["Lucy", "Dokta", "Scar", "Frank"]
 print (list[3])
 
@@ -17,8 +17,9 @@ print(Dictionary)
 #string data types
 message = 'How are you doing today?'
 
-#Set
+#Set , Sets are mutable.
 student_id = {100,101,102,103}
+print(student_id)
 
 #CONVERSION
 #Explicit Type Conversion is also called Type Casting, the data types of objects are converted using predefined functions by the user.
@@ -33,14 +34,14 @@ student_id = {100,101,102,103}
 #print(object= separator= end= file= flush=)
 #end= is used to add a new line
 
-print('Good mrng', end= ' ')
+print('Good mrng', end= ' ') #Like concatenation of two strings
 print('It is a rainy day')
 
 #Separator
 print('New Year', 2023, 'See you soon!', sep= '.')
 
 #Concatenation
-print('Hello '+'Njaramba')
+print('Hello, '+'Njaramba')
 
 #Output formatting
 x=5
@@ -48,12 +49,13 @@ y=10
 print('The value of x is {} and the value of y is {}'. format(x,y)) #The fullstop used used to close the statement.
 
 #Input from the user
-num = input('Enter a number')
+num = input('Enter a number') #input when requesting an output.
 print('You entered:', num)
 
-a = (1, 2, 3)
-b = list(a)
-print(b)
+var_1 = 'El'
+var_2 = 'GODFATHER'
+print(f'My name is {var_1} and I am the {var_2}') # f' can be used to reference variable in as calling them.
+
 
 
 
