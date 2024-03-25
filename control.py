@@ -7,7 +7,7 @@ elif marks > 75:
 else:
     result = "passed"
 
-print(result)
+print('He ' + result)
 
 
 #Match statements
