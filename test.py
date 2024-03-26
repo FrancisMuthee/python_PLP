@@ -7,3 +7,4 @@ print(y)
 age =24
 
 print(f'Hello {{x}} you are {y} years old.')
+
