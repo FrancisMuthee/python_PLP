@@ -1,9 +1,9 @@
 This is my first program.
 I hope it works, lets see!.
 Do it buddy!
-This is the fourth line.
-This is the fifth line.
-This is the sixth line.
-This is the fourth line.
-This is the fifth line.
-This is the sixth line.
+This is my second program.
+You ready!
+lets go!.
+This is my third paragraph.
+I hope you dont doubt this.
+come on!.

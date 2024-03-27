@@ -41,18 +41,18 @@ except IOError:
 #File appending
 try:
     with open("my_file.txt", "a") as file:
-        file.write("This is the fourth line.\n")
-        file.write("This is the fifth line.\n")
-        file.write("This is the sixth line.\n")
+        file.write("This is my second program.\n")
+        file.write("You ready!\n")
+        file.write("lets go!.\n")
 except IOError:
     print("Error: could not append to file my_file.txt")
 
 #Error handling
 try:
     with open("my_file.txt", "a") as file:
-        file.write("This is the fourth line.\n")
-        file.write("This is the fifth line.\n")
-        file.write("This is the sixth line.\n")
+        file.write("This is my third paragraph.\n")
+        file.write("I hope you dont doubt this.\n")
+        file.write("come on!.\n")
 except FileNotFoundError:
     print("Error: File not found")
 except PermissionError:
