@@ -21,4 +21,44 @@ Append three additional lines of text to the existing content.
 Error Handling:
 Implement error handling using try, except, and finally blocks to manage potential file-related exceptions (e.g., FileNotFoundError, PermissionError).
 '''
+#File creation
+try:
+    with open("my_file.txt", "w") as file:
+        file.write("This is my first program.\n")
+        file.write("I hope it works, lets see!.\n")
+        file.write("Do it buddy!\n")
+except IOError:
+    print("Error: could not create file my_file.txt")
 
+ #File reading and display.
+try:
+    with open("my_file.txt", "r") as file:
+        contents = file.read()
+        print(contents)
+except IOError:
+    print("Error: could not read file my_file.txt")
+
+#File appending
+try:
+    with open("my_file.txt", "a") as file:
+        file.write("This is the fourth line.\n")
+        file.write("This is the fifth line.\n")
+        file.write("This is the sixth line.\n")
+except IOError:
+    print("Error: could not append to file my_file.txt")
+
+#Error handling
+try:
+    with open("my_file.txt", "a") as file:
+        file.write("This is the fourth line.\n")
+        file.write("This is the fifth line.\n")
+        file.write("This is the sixth line.\n")
+except FileNotFoundError:
+    print("Error: File not found")
+except PermissionError:
+    print("Error: Permission denied")
+except IOError:
+    print("Error: An I/O error occurred")
+finally:
+    print("File operations completed.")
+      
